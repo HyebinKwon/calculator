@@ -55,5 +55,5 @@ class View(QWidget):
     def clearMessage(self):
         self.te1.clear()
 
-    def activateMessage(self,text):
+    def setDisplay(self,text):
         self.te1.appendPlainText(text)

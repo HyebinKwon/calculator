@@ -18,7 +18,7 @@ class View(QWidget):
         self.le2.setAlignment(QtCore.Qt.AlignRight)
 
         self.cb= QComboBox(self)
-        self.cb.addItems(['+','-','*','/'])
+        self.cb.addItems(['+','-','*','/','^'])
 
         self.te1=QPlainTextEdit()
         self.te1.setReadOnly(True)
